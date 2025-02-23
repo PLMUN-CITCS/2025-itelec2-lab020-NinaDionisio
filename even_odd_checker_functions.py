@@ -1,6 +1,7 @@
-user_input = input("Enter a number: ") 
+user_input = input("Enter an Integer: ")
+number = int(user_input)
 number = int(user_input)
 if number % 2 == 0:
-    print("The number", number, "is Even.")
+    print(number, "is an Even number.")
 else:
-    print("The number", number, "is Odd.")
+    print(number, "is an Odd number.")
